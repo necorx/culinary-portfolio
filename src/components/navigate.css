@@ -61,3 +61,81 @@ body{
     background-color: #f8f5ef;
 
 }
+
+/*tablet*/
+@media (max-width: 900px) {
+
+  .navigate-bar {
+    padding: 25px;
+    gap: 15px;
+  }
+
+  .navigate-bar h1 {
+    font-size: 24px;
+  }
+
+  .navigate-bar nav {
+    gap: 15px;
+  }
+
+  .icons {
+    gap: 8px;
+  }
+}
+
+/*large mobille*/
+@media (max-width: 600px) {
+
+  .navigate-bar {
+    height: auto;
+    padding: 20px 15px;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .navigate-bar h1 {
+    font-size: 22px;
+  }
+
+  .navigate-bar nav {
+    order: 3;
+    width: 100%;
+    justify-content: center;
+    padding-top: 12px;
+  }
+
+  .navigate-bar nav a {
+    font-size: 14px;
+  }
+
+  .icons {
+    gap: 8px;
+    margin-left: auto;
+  }
+
+  .icons button {
+    padding: 5px;
+  }
+
+  .icons svg {
+    width: 19px;
+    height: 19px;
+  }
+}
+
+
+/*smqll mobile*/
+@media (max-width: 380px) {
+
+  .navigate-bar {
+    padding: 16px 12px;
+  }
+
+  .navigate-bar h1 {
+    font-size: 20px;
+  }
+
+  .icons {
+    gap: 4px;
+  }
+}
