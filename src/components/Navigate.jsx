@@ -8,8 +8,8 @@ const Navigate = () => {
         <h1>Warm Hearth</h1>
 
         <nav>
-            <a href="#">Home</a>
-            <a href="#">Menu</a>
+            <a href="#hero">Home</a>
+            <a href="#projects-grid">Menu</a>
         </nav>
 
         <div className='icons'>
