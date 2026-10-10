@@ -1,0 +1,63 @@
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Georgia, serif;
+    background-color: #f8f5ef;
+    color: #29251f;
+}
+.navigate-bar {
+    width: 100%;
+    height: 80px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #f8f5ef;
+}
+
+.navigate-bar h1 {
+
+    font-family: Georgia, serif;
+    font-size: 28px;
+    font-weight:bolder;
+    color: #c47e04;
+
+}
+
+.navigate-bar nav {
+    display: flex;
+    align-items: center;
+    gap:20px;
+    border-radius: 6px;
+
+    box-shadow: #29251f;
+}
+
+.navigate-bar nav a {
+    text-decoration: none;
+
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #29251f;
+
+    transition:  0.3s ;
+}
+
+.navigate-bar nav a:hover {
+    color: #a65f32;
+}
+
+.icons {
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+}
+
+.icons button{
+    border:transparent;
+    background-color: #f8f5ef;
+
+}
